@@ -91,4 +91,9 @@ public class SPdfApplicationTest {
     public void testGetNonStaticPort() {
         assertEquals("8080", sPdfApplication.getNonStaticPort());
     }
+
+    @Test
+    public void testGit() {
+        System.out.println(1);
+    }
 }
